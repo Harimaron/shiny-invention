@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	height: 100%;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center
+}
+.firstPage {
+    background: url(background.jpeg) no-repeat center center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+.firstPage:hover{      
+    opacity: 0.95;
+}
+.secondPage {
+    background: url(background2.jpeg) no-repeat center center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.secondPage:hover{
+    opacity: 0.95;
+}
+
+.thirdPage {
+    background: url(background3.jpeg) no-repeat center center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.thirdPage:hover{
+    opacity: 0.95;
+}
+h1 {
+	color: #FFFFFF;
+	font: 900 96px 'Lobster', cursive;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+	margin-bottom: 24px;
+}
+.btn {
+	color: #FFFFFF;
+	font: 40px 'Lobster', cursive;
+	text-decoration: none;
+	letter-spacing: 1px;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+	-webkit-transition: text-shadow 1s ease;
+	transition: text-shadow 1s ease;
+}
+.btn:hover {
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+	-webkit-transition: text-shadow 1s ease;
+	transition: text-shadow 1s ease;
+}
+
