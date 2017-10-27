@@ -2,17 +2,19 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+	/* overflow:hidden; */
+}
 html, body {
 	height: 100%;
 }
-
 .container {
 	max-width: 600px;
 	margin: 0 auto;
 	text-align: center
 }
 .firstPage {
-    background: url(background.jpeg) no-repeat center center;
+	background: url(background.jpeg) no-repeat center center;
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -20,13 +22,13 @@ html, body {
 	text-align: center;
 	display: flex;
 	flex-direction: column;
-    justify-content: center;
+	justify-content: center;
 }
-.firstPage:hover{      
-    opacity: 0.95;
+.firstPage:hover {
+	opacity: 0.95;
 }
 .secondPage {
-    background: url(background2.jpeg) no-repeat center center;
+	background: url(background2.jpeg) no-repeat center center;
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -36,12 +38,11 @@ html, body {
 	flex-direction: column;
 	justify-content: center;
 }
-.secondPage:hover{
-    opacity: 0.95;
+.secondPage:hover {
+	opacity: 0.95;
 }
-
 .thirdPage {
-    background: url(background3.jpeg) no-repeat center center;
+	background: url(background3.jpeg) no-repeat center center;
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -51,8 +52,8 @@ html, body {
 	flex-direction: column;
 	justify-content: center;
 }
-.thirdPage:hover{
-    opacity: 0.95;
+.thirdPage:hover {
+	opacity: 0.95;
 }
 h1 {
 	color: #FFFFFF;
@@ -74,4 +75,25 @@ h1 {
 	-webkit-transition: text-shadow 1s ease;
 	transition: text-shadow 1s ease;
 }
-
+#myBtn {
+	width: 20px;
+	height: 20px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	background: #ffffff;
+	background-image: -webkit-linear-gradient(top, #ffffff, #bdbdbd);
+	background-image: -moz-linear-gradient(top, #ffffff, #bdbdbd);
+	background-image: -ms-linear-gradient(top, #ffffff, #bdbdbd);
+	background-image: -o-linear-gradient(top, #ffffff, #bdbdbd);
+	background-image: linear-gradient(to bottom, #ffffff, #bdbdbd);
+	font-family: Arial;
+	color: #ffffff;
+	padding: 05px 05px 05px 05px;
+	border-radius: 50px;
+}
+#myBtn:hover {
+	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+	-webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 500ms ease;
+}
